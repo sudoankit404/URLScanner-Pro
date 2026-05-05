@@ -1,19 +1,47 @@
-# SecureURL
-SecureURL analyzes websites in real-time to protect users from phishing links and malware-infected domains. A threat-detection service that inspects URLs for malware signatures and phishing indicators to ensure safe browsing.
-# SecureURL 🛡️
+# URLScanner Pro - Advanced URL Analysis Platform
 
-SecureURL is a lightweight, frontend-based web application designed to help users identify potentially malicious websites. By analyzing URLs, it aims to detect phishing attempts and malware risks, providing a quick safety assessment directly in the browser.
+A feature-rich URL scanning and analysis platform inspired by urlscan.io with enhanced UI/UX and dark/light theme support.
 
-## 🚀 Features
+## Features
 
-*   **URL Scanning:** Quickly assesses links for signs of phishing or malicious intent.
-*   **Real-Time Feedback:** Instantly displays the security status of the entered URL using JavaScript DOM manipulation.
-*   **Responsive Design:** Fully responsive and accessible user interface built with semantic HTML and custom CSS.
-*   **Client-Side Execution:** Fast, lightweight, and runs entirely in the browser without requiring a complex backend setup.
-*   **API Integration (Optional):** Designed to easily integrate with threat intelligence APIs (like Google Safe Browsing or VirusTotal) for live data fetching.
+### Core Features
+- 🔍 **URL Scanning**: Comprehensive URL analysis and security scanning
+- 📸 **Screenshot Capture**: Automatic website screenshot generation
+- 🛡️ **Security Analysis**: HTTPS, HSTS, XSS, CSP, and more security checks
+- 🔧 **Technology Detection**: Identifies frameworks, libraries, and technologies
+- 📊 **DOM Analysis**: Complete DOM structure breakdown
+- 🍪 **Cookie Analysis**: Detailed cookie inspection
+- 📡 **HTTP Headers**: Full HTTP header analysis
+- 🔗 **Resource Tracking**: External resource detection
+- 🔎 **Search Functionality**: Search through previous scans
+- 📥 **Export Results**: Download scan results as JSON
+- 🌓 **Theme Switcher**: Dark and light mode support
 
-## 🛠️ Tech Stack
+### User Interface
+- Modern, responsive design
+- Smooth animations and transitions
+- Mobile-friendly layout
+- Intuitive navigation
+- Real-time statistics
+- Recent scans dashboard
+## Usage
 
-*   **Markup:** HTML5
-*   **Styling:** CSS3 (Custom styles, Flexbox/Grid)
-*   **Scripting:** Vanilla JavaScript (ES6+)
+### Scanning a URL
+1. Enter the URL in the input field (protocol optional)
+2. Select scanning options (Public, Screenshot, DOM Analysis)
+3. Click "Scan URL"
+4. View comprehensive results
+
+### Searching Scans
+1. Navigate to the Search section
+2. Enter URL, domain, or scan ID
+3. Click Search to view results
+
+### Exporting Results
+1. Complete a scan
+2. Click "Export Results" button
+3. Download JSON file with complete scan data
+
+### Theme Switching
+- Click the moon/sun icon in the navigation bar
+- Theme preference is saved to localStorage

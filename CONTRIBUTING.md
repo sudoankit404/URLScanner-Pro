@@ -51,7 +51,7 @@ Found a bug? Help us fix it!
 - Test in multiple browsers
 
 **Submit a bug report:**
-1. Go to [Issues](https://github.com/yourusername/urlscanner-pro/issues)
+1. Go to [Issues](https://github.com/sudoankit404/urlscanner-pro/issues)
 2. Click "New Issue"
 3. Use the bug report template
 4. Provide detailed information
@@ -73,7 +73,7 @@ Have an idea? We'd love to hear it!
 - Consider the scope and feasibility
 
 **Submit a feature request:**
-1. Go to [Issues](https://github.com/yourusername/urlscanner-pro/issues)
+1. Go to [Issues](https://github.com/sudoankit404/urlscanner-pro/issues)
 2. Click "New Issue"
 3. Use the feature request template
 4. Describe your idea clearly
@@ -118,7 +118,7 @@ Ready to code? Here's how:
 ```bash
 # Fork the repository on GitHub
 # Then clone your fork:
-git clone https://github.com/YOUR-USERNAME/urlscanner-pro.git
+git clone https://github.com/sudoankit404/urlscanner-pro.git
 cd urlscanner-pro
 ```
 
@@ -409,7 +409,7 @@ Screenshots, mockups, or examples
 
 ## ❓ Questions?
 
-- 💬 [Start a Discussion](https://github.com/yourusername/urlscanner-pro/discussions)
+- 💬 [Start a Discussion](https://github.com/sudoankit404/urlscanner-pro/discussions)
 - 📧 Open an issue with the `question` label
 - 📖 Check existing documentation
 

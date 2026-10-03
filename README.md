@@ -69,48 +69,6 @@ This is a standalone, fully functional website that scans URLs for malicious con
    https://sudoankit404.github.io/urlscanner-pro
    ```
 
-### Option 2: Clone & Open
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/sudoankit404/urlscanner-pro.git
-   cd urlscanner-pro
-   ```
-
-2. **Open in browser**
-   ```bash
-   # Simply double-click index.html
-   # OR
-   open index.html
-   ```
-
-### Option 3: Local Development Server
-```bash
-# Using Python
-python -m http.server 8000
-
-# Using Node.js
-npx serve .
-
-# Using PHP
-php -S localhost:8000
-```
-
-Then open: `http://localhost:8000`
-
-### Option 4: Deploy Anywhere
-
-**One-Click Deploy:**
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/yourusername/urlscanner-pro)
-[![Deploy to Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/yourusername/urlscanner-pro)
-
-**Or upload to:**
-- GitHub Pages
-- Netlify
-- Vercel
-- Cloudflare Pages
-- Any web hosting service
 
 ## 📸 Screenshots
 
@@ -281,38 +239,6 @@ Display first successful screenshot
 - No user data collection
 - Complete privacy
 
-## 🎨 Customization
-
-### Change Colors
-Edit `styles.css`:
-```css
-:root {
-    --button-gradient-start: #2563eb;  /* Change to your color */
-    --button-gradient-end: #9333ea;    /* Change to your color */
-}
-```
-
-### Add More Services
-Edit `script.js`:
-```javascript
-function getScreenshotServices(url) {
-    return [
-        // Add your screenshot service here
-        `https://your-service.com/screenshot?url=${url}`,
-        // ... existing services
-    ];
-}
-```
-
-### Modify Detection
-Edit `script.js`:
-```javascript
-const MALICIOUS_PATTERNS = [
-    // Add your patterns here
-    /your-pattern/i,
-    // ... existing patterns
-];
-```
 
 ## 🏗️ Technology Stack
 
@@ -438,37 +364,6 @@ We welcome contributions! Here's how you can help:
 3. **📝 Improve Documentation** - Help others understand
 4. **🔧 Submit Pull Requests** - Add new features or fixes
 
-### Development Setup
-
-```bash
-# Fork and clone
-git clone https://github.com/sudoankit404/urlscanner-pro.git
-cd urlscanner-pro
-
-# Make changes to:
-# - index.html (structure)
-# - style.css (styling)
-# - script.js (functionality)
-
-# Test locally
-open index.html
-
-# Commit and push
-git add .
-git commit -m "Description of changes"
-git push origin main
-
-# Create Pull Request
-```
-
-### Coding Guidelines
-
-- ✅ Use semantic HTML5
-- ✅ Follow existing code style
-- ✅ Add comments for complex logic
-- ✅ Test on multiple browsers
-- ✅ Keep files lightweight
-- ✅ No external dependencies
 
 ## 📄 License
 
@@ -555,20 +450,6 @@ URLScanner-Pro is an educational and security awareness tool. While it performs 
 - Comprehensive malware scanning
 
 **Always use multiple layers of security and trust your instincts!**
-
-## 🎯 Use Responsibly
-
-This tool is designed to help users make informed decisions about URLs. Please use it responsibly and ethically.
-
----
-
-<div align="center">
-
-**Made with ❤️ for a safer web**
-
-[⬆ Back to Top](#urlscanner-pro-)
-
-</div>
 
 ## 📞 Support
 
